@@ -1,27 +1,62 @@
 .Home-container {
     background-color: white;
 }
+.Banner {
+    display: flex;
+    justify-content: center;
+ }
 .Banner-title {
     margin-top: 0;
     position: absolute;
     top: 12pc;
-    left: 28pc;
+    z-index: 2;
     color: white;
     font-family: Montserrat;
     font-size: 48px;
     font-weight: 500;
     line-height: 68px;
     letter-spacing: 0em;
+    padding: 0px 45px 0 45px;
     
 
 }
 .Banner-Background {
-    width: 1173px;
+    width: 1440px;
     height: 223px;
-    top: 163px;
-    left: 100px;
-    z-index: 3;
+    z-index: 1;
     border-radius: 50px;
-    opacity: 3px;
     padding: 0px 45px 0 45px;
+}
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-content {
+    background-color: $grey;
+    width: 1440px;
+    height: 100%;
+    border-radius: 25px;
+    margin: 44px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.location-card{
+    background: linear-gradient(180deg, $red 0%, rgba(0, 0, 0, 0.5) 120%);
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    margin: 55px 30px 55px 30px;
+}
+.location-title {
+    display: flex;
+    margin-top: 271px;
+    flex-wrap: wrap;
+    width: 128px;
+    font-size: 18px;  
+    color: white;  
+    margin-left: 18px;
 }

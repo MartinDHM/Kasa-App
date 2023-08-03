@@ -6,8 +6,8 @@ function headers() {
 return (
 
     <header className="App-header">
-      <nav class="navbar-header">
-          <div class="main-navlink">
+      <nav className="navbar-header">
+          <div className="main-navlink">
             <a href="#Accueil-title">Accueil</a>
             <a href="#Propos-title">A propos</a>
           </div>
