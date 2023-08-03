@@ -1,0 +1,59 @@
+/* Header */
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: -10px;
+ }
+.main-navlink {
+    margin-top: 40px;
+    display: flex;
+    order: 2;
+    padding-right: 45px;
+}
+.main-navlink a {
+    margin-left: 69px;
+    font-size: 19px;
+    position: relative;
+    color: $red;
+    text-decoration: none;
+ }
+
+.main-navlink a:hover {
+    cursor: pointer;
+    margin-bottom: 45px;
+    border-bottom: $red solid 2px;
+}
+
+#Accueil-title{
+    display: flex;
+}
+#Propos-title {
+    display: flex;
+    flex-direction: column;
+}
+.App-logo{
+    width: 210.32154846191406px;
+    height: 68px;
+    padding-left: 45px;
+}
+
+/* Footer */
+.footer-content {
+    width: 100%;
+    height: 209px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.App-logoFooter {
+    width: 122px;
+    height: 39.444419860839844px;
+    
+}
+.Info-Footer {
+    color: white;
+}

@@ -1,0 +1,27 @@
+.Home-container {
+    background-color: white;
+}
+.Banner-title {
+    margin-top: 0;
+    position: absolute;
+    top: 12pc;
+    left: 28pc;
+    color: white;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: 0em;
+    
+
+}
+.Banner-Background {
+    width: 1173px;
+    height: 223px;
+    top: 163px;
+    left: 100px;
+    z-index: 3;
+    border-radius: 50px;
+    opacity: 3px;
+    padding: 0px 45px 0 45px;
+}
