@@ -1,45 +1,39 @@
 /* Header */
-.navbar-header {
+.Accueil {
   display: flex;
-  justify-content: space-between;
-  background-color: white;
-  margin-top: -10px;
-}
-
-.main-navlink {
-  margin-top: 40px;
-  display: flex;
-  order: 2;
-  padding-right: 51px;
-}
-
-.main-navlink a {
-  margin-left: 69px;
-  font-size: 19px;
-  position: relative;
-  color: #FF6060;
   text-decoration: none;
+  color: #FF6060;
+  font-size: 24px;
+  margin-right: 19px;
 }
 
-.main-navlink a:hover {
-  cursor: pointer;
-  margin-bottom: 45px;
-  border-bottom: #FF6060 solid 2px;
-}
-
-#Accueil-title {
-  display: flex;
-}
-
-#Propos-title {
+.Propos {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  color: #FF6060;
+  font-size: 24px;
+}
+
+.navbar-header {
+  display: flex;
+  background-color: white;
+}
+
+.Navbar {
+  background-color: white;
+  margin-top: -17px;
+}
+
+.Link {
+  display: flex;
+  justify-content: flex-end;
+  margin: -67px 47px 0 0;
 }
 
 .App-logo {
-  width: 210px;
   height: 68px;
-  padding-left: 51px;
+  margin: 18px 0 0 51px;
 }
 
 /* Footer */
@@ -96,11 +90,9 @@ body {
 }
 
 .Banner-Background {
-  width: 1440px;
-  height: 223px;
   z-index: 1;
   border-radius: 50px;
-  padding: 0px 45px 0 45px;
+  margin: 45px 45px 0 45px;
 }
 
 .location {
@@ -137,4 +129,9 @@ body {
   font-size: 18px;
   color: white;
   margin-left: 18px;
+}
+
+.propos {
+  color: black;
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */

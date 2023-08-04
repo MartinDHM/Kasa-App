@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/App.jsx';
-import Headers from './components/Headers.jsx';
-import Footer from './components/Footer.jsx';
-import Body from './components/Body.jsx';
+import App from './components/App.js';
+import Headers from './components/Headers.js';
+import Footer from './components/Footer.js';
 import './Sass/main.css';
+import {BrowserRouter} from "react-router-dom"
 
 
 
@@ -12,12 +12,11 @@ import './Sass/main.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className="main-container">  
-    <React.StrictMode>
-      <App />
+    <BrowserRouter>
       <Headers />
-      <Body />
+      <App />
       <Footer />
-    </React.StrictMode>
+    </BrowserRouter>
   </div>
 );
 

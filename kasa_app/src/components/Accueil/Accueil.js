@@ -1,7 +1,8 @@
-import BannerHome from '../assets/HomeBanner.jpg'
+import React from 'react';
+import BannerHome from '../../assets/HomeBanner.jpg'
 
 
-function Body() {
+function Home() {
 
 return (
 
@@ -36,4 +37,4 @@ return (
  
 )
 }
-export default Body;
+export default Home;

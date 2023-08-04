@@ -1,43 +1,39 @@
-/* Header */
+ /* Header */
+ .Accueil{
+    display: flex;
+    text-decoration: none;
+    color:$red ;
+    font-size: 24px;
+    margin-right: 19px;  
+     }
+.Propos {
+         display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color:$red ;
+        font-size: 24px;
+}
 .navbar-header {
     display: flex;
-    justify-content: space-between;
     background-color: white;
-    margin-top: -10px;
-    
- }
-.main-navlink {
-    margin-top: 40px;
-    display: flex;
-    order: 2;
-    padding-right: 51px;
-}
-.main-navlink a {
-    margin-left: 69px;
-    font-size: 19px;
-    position: relative;
-    color: $red;
-    text-decoration: none;
- }
-
-.main-navlink a:hover {
-    cursor: pointer;
-    margin-bottom: 45px;
-    border-bottom: $red solid 2px;
 }
 
-#Accueil-title{
-    display: flex;
+.Navbar {
+    background-color: white;
+    margin-top: -17px;
 }
-#Propos-title {
+.Link {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    margin: -67px 47px 0 0;
 }
-.App-logo{
-    width: 210px;
+
+
+.App-logo {
     height: 68px;
-    padding-left: 51px;
+    margin: 18px 0 0 51px;
 }
+
 
 /* Footer */
 .footer-content {
