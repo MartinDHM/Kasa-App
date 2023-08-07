@@ -1,0 +1,27 @@
+.Collapse-card {
+background: $red;
+color: white;
+border-radius: 10px;
+height: 52px;
+margin: 0 15% 3% 15%;
+display: flex;
+justify-content: center;
+}
+.Collapse-title {
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+margin: 9px 21px;
+}
+.Collapse-content {
+    padding-bottom: 5px;
+}
+.Arow-up {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 7px 0 0 66%;
+}

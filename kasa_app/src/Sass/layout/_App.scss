@@ -1,13 +1,14 @@
 .main-container {
-    width: 100%;
-    padding: 0px 3pc 0 3pc;
-    box-sizing: border-box;
-  }
+  padding: 0px 3pc 0 3pc;
+  box-sizing: border-box;
+}
 body {
-background-color: black;
+  background-color: black;
 }
 .Home-container {
   background-color: white;
+  width: 80%;
+  margin: 0 auto;
 }
 .Banner {
   display: flex;
@@ -17,7 +18,7 @@ background-color: black;
   margin-top: 0;
   position: absolute;
   top: 12pc;
-  z-index: 2;
+  z-index: 1;
   color: white;
   font-family: Montserrat;
   font-size: 48px;
@@ -29,19 +30,20 @@ background-color: black;
 
 }
 .Banner-Background {
-  z-index: 1;
+  width: 100%;
   border-radius: 50px;
-  margin: 45px 45px 0 45px;
+  margin: 45px 45px 45px 45px;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
 }
 .location {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .location-content {
   background-color: $grey;
-  width: 1440px;
   height: 100%;
   border-radius: 25px;
   margin: 44px ;
@@ -49,24 +51,38 @@ background-color: black;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 45px;
 }
+
 .location-card{
   background: linear-gradient(180deg, $red 0%, rgba(0, 0, 0, 0.5) 120%);
-  width: 340px;
-  height: 340px;
+  width: 22%;
+  height: 15%;
   border-radius: 10px;
   margin: 55px 30px 55px 30px;
 }
 .location-title {
   display: flex;
-  margin-top: 271px;
+  margin-top: 85%;
   flex-wrap: wrap;
   width: 128px;
   font-size: 18px;  
   color: white;  
   margin-left: 18px;
 }
+/*A propos*/
 .propos {
   color: black;
   background-color: white;
+}
+.Banner-about {
+  width: 100%;
+  height: 223px;
+  margin: 45px 45px 45px 45px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
 }

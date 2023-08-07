@@ -1,4 +1,9 @@
 /* Header */
+.headers {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .Accueil {
   display: flex;
   text-decoration: none;
@@ -22,13 +27,14 @@
 
 .Navbar {
   background-color: white;
-  margin-top: -17px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .Link {
   display: flex;
   justify-content: flex-end;
-  margin: -67px 47px 0 0;
+  margin: -64px 47px 0 0;
 }
 
 .App-logo {
@@ -57,7 +63,6 @@
 }
 
 .main-container {
-  width: 100%;
   padding: 0px 3pc 0 3pc;
   box-sizing: border-box;
 }
@@ -68,6 +73,8 @@ body {
 
 .Home-container {
   background-color: white;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .Banner {
@@ -79,7 +86,7 @@ body {
   margin-top: 0;
   position: absolute;
   top: 12pc;
-  z-index: 2;
+  z-index: 1;
   color: white;
   font-family: Montserrat;
   font-size: 48px;
@@ -90,9 +97,13 @@ body {
 }
 
 .Banner-Background {
-  z-index: 1;
+  width: 100%;
   border-radius: 50px;
-  margin: 45px 45px 0 45px;
+  margin: 45px 45px 45px 45px;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .location {
@@ -103,7 +114,6 @@ body {
 
 .location-content {
   background-color: #F6F6F6;
-  width: 1440px;
   height: 100%;
   border-radius: 25px;
   margin: 44px;
@@ -111,19 +121,22 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 45px;
 }
 
 .location-card {
   background: linear-gradient(180deg, #FF6060 0%, rgba(0, 0, 0, 0.5) 120%);
-  width: 340px;
-  height: 340px;
+  width: 22%;
+  height: 15%;
   border-radius: 10px;
   margin: 55px 30px 55px 30px;
 }
 
 .location-title {
   display: flex;
-  margin-top: 271px;
+  margin-top: 85%;
   flex-wrap: wrap;
   width: 128px;
   font-size: 18px;
@@ -131,7 +144,50 @@ body {
   margin-left: 18px;
 }
 
+/*A propos*/
 .propos {
   color: black;
   background-color: white;
+}
+
+.Banner-about {
+  width: 100%;
+  height: 223px;
+  margin: 45px 45px 45px 45px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Collapse-card {
+  background: #FF6060;
+  color: white;
+  border-radius: 10px;
+  height: 52px;
+  margin: 0 15% 3% 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.Collapse-title {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 9px 21px;
+}
+
+.Collapse-content {
+  padding-bottom: 5px;
+}
+
+.Arow-up {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin: 7px 0 0 66%;
 }/*# sourceMappingURL=main.css.map */
