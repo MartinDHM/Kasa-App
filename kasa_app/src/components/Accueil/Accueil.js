@@ -2,6 +2,7 @@ import React from 'react';
 import BannerHome from '../../assets/HomeBanner.jpg'
 
 
+
 function Home() {
 
 return (
