@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 import Arrowup from '../../assets/arrow_up.png'
 
 const Collapse = ({ title, children }) => {
-  const [isCollapsed, setIsCollapsed] = useState(true);
+  const [isCollapse, setIsCollapse] = useState(true);
 
   const toggleCollapse = () => {
-    setIsCollapsed(!isCollapsed);
+    setIsCollapse(!isCollapse);
   };
 
   return (
@@ -15,7 +15,7 @@ const Collapse = ({ title, children }) => {
         {title}
         <img src={Arrowup} className="Arow-up" alt="Arrow up" />
       </button>
-      {!isCollapsed && <div className="collapse-container">{children}</div>}
+      {!isCollapse && <div className="collapse-container">{children}</div>}
     </div>
   );
 };

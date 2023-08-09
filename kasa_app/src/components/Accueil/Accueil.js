@@ -1,5 +1,7 @@
 import React from 'react';
-import BannerHome from '../../assets/HomeBanner.jpg'
+import BannerHome from '../../assets/HomeBanner.jpg';
+import Card from './card';
+import data from '../../datas/datas.json';
 
 
 
@@ -12,28 +14,9 @@ return (
             <img src={BannerHome} className="Banner-Background" alt="logo" /> 
             <p className='Banner-title'>Chez vous, partout et ailleurs</p>
         </div>
-        <section className='location'>
-            <div className='location-content'>
-                <article className='location-card'>
-                    <p className='location-title'>Titre de la location</p>
-                </article>
-                <article className='location-card'>
-                    <p className='location-title'>Titre de la location</p>
-                </article>
-                <article className='location-card'>
-                    <p className='location-title'>Titre de la location</p>
-                </article>
-                <article className='location-card'>
-                    <p className='location-title'>Titre de la location</p>
-                </article>
-                <article className='location-card'>
-                    <p className='location-title'>Titre de la location</p>
-                </article>
-                <article className='location-card'>
-                    <p className='location-title'>Titre de la location</p>
-                </article>
-            </div>
-        </section>
+        <section id='card-container' className='location'>
+        <Card data={data} /> {/* Passer les données au composant Card */}
+      </section>
     </main>
  
 )
