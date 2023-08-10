@@ -13,10 +13,10 @@ body {
 .Banner {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .Banner-title {
   position: absolute;
-  top: 12pc;
   z-index: 1;
   color: white;
   font-family: Montserrat;
@@ -25,7 +25,6 @@ body {
   line-height: 68px;
   letter-spacing: 0em;
   padding: 0px 45px 0 45px;
-  margin-top: 0;
   
 
 }

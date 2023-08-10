@@ -1,0 +1,28 @@
+.notfound {
+    padding: 0px 3pc 0 3pc;
+    box-sizing: border-box;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+.notfound-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 62pc;
+}
+.notfound-title{
+    color: $red;
+    font-size: 288px;
+    margin-top: 0;
+    margin-bottom: 101px;
+}
+.notfound-text {
+    color: $red;
+    font-size: 36px;
+}
+.back-link {
+    color: $red;
+    
+}

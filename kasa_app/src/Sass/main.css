@@ -84,11 +84,11 @@ body {
 .Banner {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .Banner-title {
   position: absolute;
-  top: 12pc;
   z-index: 1;
   color: white;
   font-family: Montserrat;
@@ -97,7 +97,6 @@ body {
   line-height: 68px;
   letter-spacing: 0em;
   padding: 0px 45px 0 45px;
-  margin-top: 0;
 }
 
 .Banner-Background {
@@ -217,4 +216,36 @@ body {
   height: 30px;
   margin-left: 85%;
   justify-content: center;
+}
+
+.notfound {
+  padding: 0px 3pc 0 3pc;
+  box-sizing: border-box;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 62pc;
+}
+
+.notfound-title {
+  color: #FF6060;
+  font-size: 288px;
+  margin-top: 0;
+  margin-bottom: 101px;
+}
+
+.notfound-text {
+  color: #FF6060;
+  font-size: 36px;
+}
+
+.back-link {
+  color: #FF6060;
 }/*# sourceMappingURL=main.css.map */
