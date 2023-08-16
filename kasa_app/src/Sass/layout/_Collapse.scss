@@ -1,15 +1,15 @@
 .Collapse-card {
-background: $red;
-color: white;
-border-radius: 10px;
-height: 52px;
-margin: 0 11% 2% 11%;
-display: flex;
-justify-content: center;
-width: 75%;
-font-size: 25px;
-padding-top: 10px;
-border: none;
+  background: #FF6060;
+  color: white;
+  border-radius: 10px;
+  height: 52px;
+  margin: 0 11% 2% 11%;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  font-size: 25px;
+  border: none;
+  padding: 9px 35px;
 }
 .Collapse-container {
     display: flex;

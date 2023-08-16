@@ -4,7 +4,6 @@ import Card from './card';
 import data from '../../datas/datas.json';
 
 
-
 function Home() {
 
 return (
@@ -12,10 +11,10 @@ return (
     <main className='Home-container'>
         <div className='Banner'>
             <img src={BannerHome} className="Banner-Background" alt="logo" /> 
-            <p className='Banner-title'>Chez vous, partout et ailleurs</p>
+            <h1 className='Banner-title'>Chez vous, partout et ailleurs</h1>
         </div>
-        <section id='card-container' className='location'>
-        <Card data={data} /> {/* Passer les données au composant Card */}
+        <section id='card-container' className='location'>    
+            <Card data={data} /> 
       </section>
     </main>
  

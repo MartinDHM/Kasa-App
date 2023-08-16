@@ -1,9 +1,12 @@
 .main-container {
   padding: 0px 3pc 0 3pc;
   box-sizing: border-box;
+  
 }
 body {
   background-color: black;
+  font-family: Montserrat;
+  
 }
 .Home-container {
   background-color: white;
@@ -19,12 +22,12 @@ body {
   position: absolute;
   z-index: 1;
   color: white;
-  font-family: Montserrat;
   font-size: 48px;
   font-weight: 500;
   line-height: 68px;
   letter-spacing: 0em;
   padding: 0px 45px 0 45px;
+  font-weight: 900;
   
 
 }
@@ -47,6 +50,8 @@ body {
   border-radius: 25px;
   margin: 44px ;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -64,12 +69,12 @@ body {
 }
 .location-title {
   display: flex;
-flex-wrap: wrap;
-width: 100%;
-font-size: 23px;
-color: white;
-margin: -110px 10px 10px 10px;
-font-weight: bold;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 23px;
+  color: white;
+  margin: -110px 10px 10px 10px;
+  font-weight: 900;
 }
 .location-image {
   width: 100%;
@@ -83,6 +88,11 @@ font-weight: bold;
   color: white;
   margin-left: 9px;
   margin-top: 9px;
+  width: 100%;
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
 }
 /*A propos*/
 .propos {
@@ -97,4 +107,7 @@ font-weight: bold;
   background-size: cover;
   background-position: center;
   object-fit: cover;
+}
+.Arrow-up:hover {
+  cursor: pointer;
 }

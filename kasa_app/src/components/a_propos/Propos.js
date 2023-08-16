@@ -6,7 +6,7 @@ function Propos () {
     return (
       <main className='Home-container'>
         <div className='Banner'>
-            <img src={BannerHome} className="Banner-about" alt="logo" /> 
+            <img src={BannerHome} className="Banner-about" alt="banniere A propos" /> 
         </div>
         <div>
         <Collapse title="Fiabilité">

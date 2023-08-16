@@ -1,7 +1,14 @@
+@charset "UTF-8";
+.rotate {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(180deg);
+}
+
 /* Header */
 .headers {
   width: 100%;
   margin: 0 auto;
+  font-weight: bold;
 }
 
 .Accueil {
@@ -73,6 +80,7 @@
 
 body {
   background-color: black;
+  font-family: Montserrat;
 }
 
 .Home-container {
@@ -91,12 +99,12 @@ body {
   position: absolute;
   z-index: 1;
   color: white;
-  font-family: Montserrat;
   font-size: 48px;
   font-weight: 500;
   line-height: 68px;
   letter-spacing: 0em;
   padding: 0px 45px 0 45px;
+  font-weight: 900;
 }
 
 .Banner-Background {
@@ -121,6 +129,8 @@ body {
   border-radius: 25px;
   margin: 44px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -144,7 +154,7 @@ body {
   font-size: 23px;
   color: white;
   margin: -110px 10px 10px 10px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .location-image {
@@ -161,6 +171,12 @@ body {
   color: white;
   margin-left: 9px;
   margin-top: 9px;
+  width: 100%;
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*A propos*/
@@ -180,6 +196,10 @@ body {
      object-fit: cover;
 }
 
+.Arrow-up:hover {
+  cursor: pointer;
+}
+
 .Collapse-card {
   background: #FF6060;
   color: white;
@@ -187,11 +207,11 @@ body {
   height: 52px;
   margin: 0 11% 2% 11%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 75%;
   font-size: 25px;
-  padding-top: 10px;
   border: none;
+  padding: 9px 35px;
 }
 
 .Collapse-container {
@@ -248,4 +268,63 @@ body {
 
 .back-link {
   color: #FF6060;
+}
+
+.logement-container {
+  padding: 0px 3pc 0 3pc;
+  box-sizing: border-box;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  height: 50pc;
+}
+
+.logement-image {
+  width: 100%;
+  height: 84%;
+  margin-top: 3%;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.logement-details {
+  margin-top: 0;
+  color: white;
+}
+
+.logement-title {
+  font-size: 50px;
+  color: #FF6060;
+}
+
+.logement-location {
+  margin-top: -30px;
+  font-weight: bold;
+  color: #FF6060;
+}
+
+.logement-tags {
+  margin: 35px 0;
+}
+
+.tag {
+  border-radius: 26px;
+  background-color: #FF6060;
+  color: white;
+  padding: 5px 29px;
+  margin-right: 19px;
+  font-weight: 900;
+}
+
+.Carrousel {
+  height: 50%;
+}
+
+.star-outline {
+  display: inline-block;
+  -webkit-text-stroke: 1px black; /* Bordure noire */
+  font-size: 24px; /* Ajustez la taille de l'étoile selon vos besoins */
+  margin-right: 4px; /* Espacement entre les étoiles */
 }/*# sourceMappingURL=main.css.map */

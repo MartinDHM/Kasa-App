@@ -1,17 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
 
-// Importation des composants personnalisés
-import Header from '../Headers';
-import Footer from '../Footer';
 
-// Définition de la fonction de la page "À propos"
-export default function NotFound() { // Utilisez le nom correct "NotFound" ici
-  // Utilisation du hook useLocation pour obtenir l'URL actuelle
-  const location = useLocation();
+export default function NotFound() { 
 
-  // Rendu de la page d'erreur 404
   return (
     <div className="notfound">
         <>
