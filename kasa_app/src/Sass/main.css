@@ -223,6 +223,7 @@ a {
 @media (max-width: 1024px) {
   body {
     background-color: white;
+    margin: 0;
   }
   .main-container {
     width: 100%;
@@ -250,7 +251,7 @@ a {
   .Banner-about {
     border-radius: 12px;
     height: 175px;
-    margin: 46px 0 5px 0;
+    margin: 46px 12px 5px 12px;
   }
   .location-card {
     width: 90%;
@@ -328,6 +329,9 @@ a {
     margin: 19px 0;
     height: 37px;
     font-size: 15px;
+  }
+  .Collapse-space {
+    margin: 0 12px 0 12px;
   }
 }
 .notfound {
@@ -415,7 +419,7 @@ a {
   font-size: 26px;
   color: #FF6060;
   width: 68%;
-  margin-top: 6pc;
+  margin-top: 4pc;
   margin-bottom: 37px;
 }
 
@@ -481,7 +485,7 @@ a {
     font-size: 22px;
     color: #FF6060;
     width: 100%;
-    margin-top: 7pc;
+    margin-top: 4pc;
   }
   .host-rating {
     display: flex;
@@ -529,9 +533,11 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
   height: 21pc;
+  filter: brightness(80%);
 }
 
 .carousel-buttonLeft {
+  position: relative;
   color: white;
   background: transparent;
   border: none;
@@ -539,6 +545,7 @@ a {
 }
 
 .carousel-buttonRight {
+  position: relative;
   color: white;
   background: transparent;
   border: none;
@@ -559,10 +566,21 @@ a {
   margin-top: -14pc;
 }
 
+.carousel-pagination {
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
 @media (max-width: 1024px) {
   .image-carrousel {
     height: 255px;
     border-radius: 12px;
+    width: 107%;
+    margin: 45px 0px 2px -13px;
   }
   .logement-container {
     padding: 0;
@@ -578,5 +596,10 @@ a {
   }
   .ArrowLeft {
     height: 30px;
+  }
+  .carousel-pagination {
+    font-size: 23px;
+    font-weight: bolder;
+    color: white;
   }
 }/*# sourceMappingURL=main.css.map */

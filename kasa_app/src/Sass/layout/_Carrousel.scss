@@ -9,14 +9,17 @@
     background-position: center;
     object-fit: cover;
     height: 21pc;
+    filter: brightness(80%);
   }
   .carousel-buttonLeft {
+    position: relative;
     color: white;
     background: transparent;
     border: none;
     padding: 18px;
   }
  .carousel-buttonRight {
+    position: relative;
     color: white;
     background: transparent;
     border: none;
@@ -33,10 +36,20 @@
     justify-content: space-between;
     margin-top: -14pc;
   }
+  .carousel-pagination {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
   @media (max-width: 1024px) { 
     .image-carrousel {
         height: 255px;
         border-radius: 12px;
+        width: 107%;
+        margin: 45px 0px 2px -13px;
     }
     .logement-container{
         padding: 0;
@@ -52,5 +65,10 @@
       }
       .ArrowLeft {
         height: 30px;
+      }
+      .carousel-pagination {
+        font-size: 23px;
+        font-weight: bolder;
+        color: white;
       }
   }

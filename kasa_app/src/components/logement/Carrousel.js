@@ -15,7 +15,7 @@ const Carrousel = ({ images }) => {
 
   return (
     <div className="carousel">
-      <img className='image-carrousel' src={images[currentImageIndex]} alt="carousel" />
+        <img className='image-carrousel' src={images[currentImageIndex]} alt="carousel" />
         <div className='button-carrousel'>
             <button className="carousel-buttonLeft" onClick={prevImage}>
                 <FontAwesomeIcon className='ArrowLeft' icon={faArrowLeft} />
@@ -23,6 +23,9 @@ const Carrousel = ({ images }) => {
             <button className="carousel-buttonRight" onClick={nextImage}>
                 <FontAwesomeIcon className='ArrowRight' icon={faArrowRight} />
             </button>
+        </div>
+        <div className="carousel-pagination">
+            <span>{currentImageIndex + 1} / {images.length}</span>
         </div>
     </div>
   );

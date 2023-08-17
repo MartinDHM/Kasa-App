@@ -121,6 +121,7 @@ a {
 @media (max-width: 1024px) {
 body {
   background-color: white;
+  margin: 0;
 }
 .main-container {
  width: 100%;
@@ -148,7 +149,7 @@ body {
 .Banner-about{
   border-radius: 12px;
   height: 175px;
-  margin: 46px 0 5px 0;
+  margin: 46px 12px 5px 12px;
 }
 .location-card {
   width: 90%;
