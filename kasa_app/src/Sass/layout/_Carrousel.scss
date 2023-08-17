@@ -33,3 +33,24 @@
     justify-content: space-between;
     margin-top: -14pc;
   }
+  @media (max-width: 1024px) { 
+    .image-carrousel {
+        height: 255px;
+        border-radius: 12px;
+    }
+    .logement-container{
+        padding: 0;
+    }
+    .carousel-buttonRight {
+        margin-top: 66px;
+    }
+    .carousel-buttonLeft {
+        margin-top: 66px;
+    }
+    .ArrowRight {
+        height: 30px;
+      }
+      .ArrowLeft {
+        height: 30px;
+      }
+  }

@@ -22,7 +22,7 @@ body {
   position: absolute;
   z-index: 1;
   color: white;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 500;
   line-height: 68px;
   letter-spacing: 0em;
@@ -38,6 +38,7 @@ body {
   background-size: cover;
   background-position: center;
   object-fit: cover;
+  filter: brightness(60%);
 }
 .location {
   display: flex;
@@ -54,27 +55,28 @@ body {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   width: 94%;
   margin: 0 auto;
   margin-bottom: 45px;
 }
 
 .location-card{
-  background: linear-gradient(180deg, $red 0%, rgba(0, 0, 0, 0.5) 120%);
   width: 22%;
   height: 254px;
   border-radius: 10px;
   margin: 55px 30px 55px 30px;
+  
+
 }
 .location-title {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  font-size: 23px;
+  width: 98%;
+  font-size: 18px;
   color: white;
-  margin: -110px 10px 10px 10px;
+  margin: -110px 10px 10px 6px;
   font-weight: 900;
+  position: relative;
 }
 .location-image {
   width: 100%;
@@ -83,13 +85,17 @@ body {
   background-size: cover;
   background-position: center;
   object-fit: cover;
+  filter: brightness(65%);
 }
+
 .location-detail {
   color: white;
   margin-left: 9px;
-  margin-top: 9px;
+  margin-top: -6px;
   width: 100%;
   font-weight: 900;
+  font-size: 14px;
+  position: relative;
 }
 a {
   text-decoration: none;
@@ -110,4 +116,61 @@ a {
 }
 .Arrow-up:hover {
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+body {
+  background-color: white;
+}
+.main-container {
+ width: 100%;
+ padding: 0;
+  }
+  .Home-container {
+    width: 100%;
+  }
+.Banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Banner-Background {
+  border-radius: 12px;
+  margin: 45px 19px 40px 15px;
+}
+.Banner-title {
+  font-size: 19px;
+  width: 79%;
+  justify-content: center;
+  display: flex;
+}
+.Banner-about{
+  border-radius: 12px;
+  height: 175px;
+  margin: 46px 0 5px 0;
+}
+.location-card {
+  width: 90%;
+  height: 198px;
+  border-radius: 10px;
+  margin: 26px 5% 65px 5%;
+} 
+
+.location-content {
+  background-color: #F6F6F6;
+  height: 100%;
+  border-radius: 25px;
+  flex-direction: column;
+  }
+  .location-title {
+    font-size: 15px;
+    margin-top: -72px;
+  }
+  .location-title {
+    font-size: 15px;
+  }
+  .location-detail {
+    font-size: 12px;
+  }
 }

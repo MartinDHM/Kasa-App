@@ -22,12 +22,12 @@ const LogementDetails = ({ data }) => {
 
     // Remplir les étoiles pleines
     for (let i = 0; i < fullStars; i++) {
-      stars.push(<FontAwesomeIcon key={i} icon={faStar} color="#FFD700" />);
+      stars.push(<FontAwesomeIcon key={i} icon={faStar} color="#FF6060" />);
     }
 
     // Ajouter les étoiles vides avec bordure noire
     for (let i = 0; i < remainingStars; i++) {
-      stars.push(<FontAwesomeIcon key={i + fullStars} icon={faStar} />);
+      stars.push(<FontAwesomeIcon key={i + fullStars} icon={faStar} color='#E3E3E3' />);
     }
 
     return stars;

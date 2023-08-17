@@ -63,3 +63,22 @@
 .Info-Footer {
     color: white;
 }
+
+@media (max-width: 1024px) {
+.App-logo {
+    height: 32px;
+    margin: 16px 0px 8px 26px;
+ }
+.Accueil {
+    font-size: 15px;
+}
+.Propos {
+    font-size: 15px;
+}
+.main-container {
+    box-sizing: border-box;
+  }
+  .Navbar {
+    width: 100%;
+  }
+}

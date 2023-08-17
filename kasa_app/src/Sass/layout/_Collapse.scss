@@ -17,14 +17,15 @@
   }
 
 .Collapse-text {
-    padding-bottom: 5px;
-    font-size: 31px;
-    color: #FF6060;
-    background-color: #F6F6F6;
-    width: 72%;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin: -36px 0 21px 205px;
+  padding-bottom: 5px;
+  color: #FF6060;
+  background-color: #F6F6F6;
+  width: 70%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: -15px 0% 2% 11%;
+  border: none;
+  font-size: 18px;
   }
 
 .Arow-up {
@@ -35,6 +36,18 @@
     justify-content: center;
   }
 
-  .Collapse-space {
+.Collapse-space {
     padding-bottom: 1pc;
   }
+@media (max-width: 1024px) {
+  .Collapse-text {
+    width: 61%;
+    margin: -10px 0% 2% 11%;
+    }
+  .Collapse-card {
+    width: 100%;
+    margin: 19px 0;
+    height: 37px;
+    font-size: 15px;
+  }
+}
