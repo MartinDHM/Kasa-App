@@ -3,8 +3,8 @@ import React from 'react';
 import Home from './Accueil/Accueil';
 import Propos from './a_propos/Propos';
 import Error from './Error/Error';
-import LogementDetails from '../components/Accueil/LogementDetails';
-import datas from '../datas/datas.json'; // Import data from the JSON file
+import LogementDetails from '../components/logement/LogementDetails';
+import datas from '../datas/datas.json'; 
 
 function App() {
   return (

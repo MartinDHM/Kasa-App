@@ -1,0 +1,35 @@
+.Carrousel {
+    height: 42%;
+  }
+.image-carrousel {
+    width: 100%;
+    border-radius: 50px;
+    margin: 45px 0px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 21pc;
+  }
+  .carousel-buttonLeft {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 18px;
+  }
+ .carousel-buttonRight {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 18px;
+  }
+  .ArrowRight {
+    height: 100px;
+  }
+  .ArrowLeft {
+    height: 100px;
+  }
+  .button-carrousel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -14pc;
+  }

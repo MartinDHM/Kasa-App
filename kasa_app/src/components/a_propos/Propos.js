@@ -8,7 +8,7 @@ function Propos () {
         <div className='Banner'>
             <img src={BannerHome} className="Banner-about" alt="banniere A propos" /> 
         </div>
-        <div>
+        <div className='Collapse-space'>
         <Collapse title="Fiabilité">
           <p className='Collapse-text'>Les annonces postées sur Kasa garantissent une fiabilité totale. 
             Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</p>
