@@ -89,6 +89,9 @@
   .Navbar {
     width: 100%;
   }
+  footer {
+    margin-top: 198px;
+  }
 }
 .main-container {
   padding: 0px 3pc 0 3pc;
@@ -240,18 +243,20 @@ a {
   }
   .Banner-Background {
     border-radius: 12px;
-    margin: 45px 19px 40px 15px;
+    margin: 72px 19px 72px 15px;
+    height: 122px;
   }
   .Banner-title {
     font-size: 19px;
     width: 79%;
     justify-content: center;
     display: flex;
+    margin-top: 5%;
   }
   .Banner-about {
     border-radius: 12px;
     height: 175px;
-    margin: 46px 12px 5px 12px;
+    margin: 97px 12px 89px 12px;
   }
   .location-card {
     width: 90%;
@@ -264,6 +269,7 @@ a {
     height: 100%;
     border-radius: 25px;
     flex-direction: column;
+    margin-bottom: 0;
   }
   .location-title {
     font-size: 15px;
@@ -326,7 +332,7 @@ a {
   }
   .Collapse-card {
     width: 100%;
-    margin: 19px 0;
+    margin: 32px 0 32px 0;
     height: 37px;
     font-size: 15px;
   }
@@ -364,7 +370,6 @@ a {
 
 .back-link {
   color: #FF6060;
-  width: 127%;
 }
 
 .back-link:hover {
@@ -379,7 +384,7 @@ a {
   }
   .notfound-title {
     font-size: 166px;
-    margin-top: -13pc;
+    margin-top: -1pc;
   }
   .notfound-text {
     font-size: 18px;
@@ -389,6 +394,7 @@ a {
   .back-link {
     margin-top: 0;
     margin-bottom: -13pc;
+    width: 127%;
   }
 }
 .logement-container {
@@ -573,6 +579,7 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 15px;
+  color: white;
 }
 
 @media (max-width: 1024px) {

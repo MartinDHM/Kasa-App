@@ -24,7 +24,6 @@
 }
 .back-link {
     color: $red;
-    width: 127%;  
 }
 .back-link:hover {
     border-bottom: $red solid 1px ;
@@ -37,7 +36,7 @@
     }
     .notfound-title {
         font-size: 166px;
-        margin-top: -13pc;
+        margin-top: -1pc;
     }   
     .notfound-text {
         font-size: 18px;
@@ -47,5 +46,6 @@
     .back-link {
         margin-top: 0;
         margin-bottom: -13pc;
+        width: 127%;  
     }
 }

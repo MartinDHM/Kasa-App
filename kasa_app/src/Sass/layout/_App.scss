@@ -138,18 +138,21 @@ body {
 }
 .Banner-Background {
   border-radius: 12px;
-  margin: 45px 19px 40px 15px;
+  margin: 72px 19px 72px 15px;
+  height: 122px;
 }
 .Banner-title {
   font-size: 19px;
   width: 79%;
   justify-content: center;
   display: flex;
+  margin-top: 5%;
 }
+
 .Banner-about{
   border-radius: 12px;
   height: 175px;
-  margin: 46px 12px 5px 12px;
+  margin: 97px 12px 89px 12px;
 }
 .location-card {
   width: 90%;
@@ -163,6 +166,7 @@ body {
   height: 100%;
   border-radius: 25px;
   flex-direction: column;
+  margin-bottom: 0;
   }
   .location-title {
     font-size: 15px;
