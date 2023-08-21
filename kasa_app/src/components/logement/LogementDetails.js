@@ -4,14 +4,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import Collapse from '../a_propos/Collapse';
 import Carrousel from '../logement/Carrousel';
+import Error from '../Error/Error'; // Assure-toi que le chemin est correct
 
 const LogementDetails = ({ data }) => {
   const { index } = useParams();
-  const selectedItem = data[+index];
+  const selectedIndex = +index; // Convertir l'index en nombre
 
-  if (!selectedItem) {
-    return <div>Logement introuvable.</div>;
+  if (selectedIndex < 0 || selectedIndex >= data.length) {
+    return <Error />; // Afficher le composant Error
   }
+
+  const selectedItem = data[selectedIndex];
 
   // Fonction pour générer les étoiles en fonction du rating
   const renderRatingStars = (rating) => {
@@ -36,7 +39,7 @@ const LogementDetails = ({ data }) => {
   return (
     <section className='logement-container'>
       <div className='Carrousel'>
-        <Carrousel className = 'image-carrousel' images={selectedItem.pictures} />
+        <Carrousel className='image-carrousel' images={selectedItem.pictures} />
       </div>
       <div className='logement-details'>
         <h2 className='logement-title'>{selectedItem.title}</h2>
