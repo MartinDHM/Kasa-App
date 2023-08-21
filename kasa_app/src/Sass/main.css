@@ -373,9 +373,11 @@ a {
 }
 
 .back-link:hover {
-  border-bottom: #FF6060 solid 1px;
   font-size: 16px;
-  width: 127%;
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  border-bottom: solid 1px #FF6060;
 }
 
 @media (max-width: 1024px) {

@@ -2,13 +2,16 @@ import React from 'react';
 import BannerHome from '../../assets/AboutBanner.jpg'
 import Collapse from './Collapse';
 
-function Propos () {
-    return (
-      <main className='Home-container'>
-        <div className='Banner'>
-            <img src={BannerHome} className="Banner-about" alt="banniere A propos" /> 
-        </div>
-        <div className='Collapse-space'>
+// Composant Propos
+function Propos() {
+  return (
+    <main className='Home-container'>
+    {/* Importation de la bannière A Propos */}
+      <div className='Banner'>
+        <img src={BannerHome} className="Banner-about" alt="banniere A propos" /> 
+      </div>
+      <div className='Collapse-space'>
+        {/* Section de collape pour les informations */}
         <Collapse title="Fiabilité">
           <p className='Collapse-text'>Les annonces postées sur Kasa garantissent une fiabilité totale. 
             Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</p>
@@ -27,8 +30,9 @@ function Propos () {
             locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons
             également des ateliers sur la sécurité domestique pour nos hôtes.</p>
         </Collapse>
-        </div>
-      </main>
+      </div>
+    </main>
   )
 }
+
 export default Propos;
