@@ -38,11 +38,11 @@
   }
   .carousel-pagination {
     position: relative;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 38px;
     color: white;
   }
   @media (max-width: 1024px) { 
@@ -68,7 +68,7 @@
         height: 30px;
       }
       .carousel-pagination {
-        font-size: 23px;
+        font-size: 17px;
         font-weight: bolder;
         color: white;
       }

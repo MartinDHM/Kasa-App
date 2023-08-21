@@ -60,7 +60,7 @@ const LogementDetails = ({ data }) => {
         {/* Affichage du propriètaire */}
         <div className='host-rating'>
           <div className='Host-picture'>
-            <img className='Picturehost' src={selectedItem.host.picture} alt='photo host' />
+            <img className='Picturehost' src={selectedItem.host.picture} alt='Portrait host' />
             <p className='Host'>{selectedItem.host.name}</p>
           </div>
           {/* Affichage des étoiles de notation */}

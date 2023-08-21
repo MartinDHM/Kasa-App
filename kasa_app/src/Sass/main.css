@@ -390,13 +390,13 @@ a {
   }
   .notfound-text {
     font-size: 18px;
-    width: 117%;
+    width: 100%;
     margin-bottom: 78px;
   }
   .back-link {
     margin-top: 0;
     margin-bottom: -13pc;
-    width: 127%;
+    width: 111%;
   }
 }
 .logement-container {
@@ -464,7 +464,7 @@ a {
   display: flex;
   width: 100%;
   margin-top: -9pc;
-  justify-content: end;
+  justify-content: flex-end;
   margin-bottom: 3pc;
 }
 
@@ -576,11 +576,11 @@ a {
 
 .carousel-pagination {
   position: relative;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 38px;
   color: white;
 }
 
@@ -607,7 +607,7 @@ a {
     height: 30px;
   }
   .carousel-pagination {
-    font-size: 23px;
+    font-size: 17px;
     font-weight: bolder;
     color: white;
   }
