@@ -34,7 +34,7 @@ body {
 .Banner-Background {
   width: 100%;
   border-radius: 50px;
-  margin: 45px 45px 45px 45px;
+  margin: 63px 45px 45px 45px;
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -61,11 +61,11 @@ body {
 }
 
 .location-card{
-  width: 22%;
-  height: 254px;
+  width: 28%;
+  height: 300px;
   border-radius: 10px;
-  margin: 55px 30px 55px 30px;
-  
+  margin: 27px auto;
+  object-fit: cover;
 
 }
 .location-title {
@@ -74,19 +74,13 @@ body {
   width: 98%;
   font-size: 18px;
   color: white;
-  margin: -110px 10px 10px 6px;
+  margin: -124px 10px 10px 6px;
   font-weight: 900;
   position: relative;
+  margin-top: 13pc;
+  margin-left: 8px;
 }
-.location-image {
-  width: 100%;
-  height: 255px;
-  border-radius: 2%;
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
-  filter: brightness(65%);
-}
+
 
 .location-detail {
   color: white;
@@ -94,7 +88,7 @@ body {
   margin-top: -6px;
   width: 100%;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 11px;
   position: relative;
 }
 a {
@@ -132,33 +126,31 @@ body {
   }
 .Banner {
   display: flex;
-  justify-content: center;
+  justify-content:flex-start;
   align-items: center;
   width: 100%;
 }
 .Banner-Background {
   border-radius: 12px;
-  margin: 72px 19px 72px 15px;
+  margin: 72px 19px 35px 15px;
   height: 122px;
 }
 .Banner-title {
-  font-size: 19px;
-  width: 79%;
-  justify-content: center;
-  display: flex;
-  margin-top: 5%;
+  font-size: 24px;
+  white-space: normal; /* Permet au texte de passer sur plusieurs lignes */
+  width: 225px;
+  margin-top: 49px;  
 }
 
 .Banner-about{
   border-radius: 12px;
   height: 175px;
-  margin: 97px 12px 89px 12px;
+  margin: 70px 12px 26px 12px;
 }
 .location-card {
   width: 90%;
   height: 198px;
   border-radius: 10px;
-  margin: 26px 5% 65px 5%;
 } 
 
 .location-content {
@@ -170,12 +162,10 @@ body {
   }
   .location-title {
     font-size: 15px;
-    margin-top: -72px;
-  }
-  .location-title {
-    font-size: 15px;
+    margin-top: 8pc;
   }
   .location-detail {
     font-size: 12px;
   }
+  
 }

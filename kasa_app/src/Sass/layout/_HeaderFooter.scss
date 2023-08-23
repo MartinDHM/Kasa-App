@@ -31,7 +31,7 @@
 .Link {
     display: flex;
     justify-content: flex-end;
-    margin: -64px 47px 0 0;
+    margin: -75px 47px 0 0;
 }
 
 
@@ -53,6 +53,7 @@
     justify-content: center;
     flex-direction: column;
     background-color: black;
+    margin-top: -140px;
 }
 
 .App-logoFooter {
@@ -83,5 +84,8 @@
   }
   footer {
     margin-top: 198px;
+  }
+  .Link {
+    margin: -63px 47px 0 0;
   }
 }

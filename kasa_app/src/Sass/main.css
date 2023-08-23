@@ -40,7 +40,7 @@
 .Link {
   display: flex;
   justify-content: flex-end;
-  margin: -64px 47px 0 0;
+  margin: -75px 47px 0 0;
 }
 
 .App-logo {
@@ -61,6 +61,7 @@
   justify-content: center;
   flex-direction: column;
   background-color: black;
+  margin-top: -140px;
 }
 
 .App-logoFooter {
@@ -91,6 +92,9 @@
   }
   footer {
     margin-top: 198px;
+  }
+  .Link {
+    margin: -63px 47px 0 0;
   }
 }
 .main-container {
@@ -130,7 +134,7 @@ body {
 .Banner-Background {
   width: 100%;
   border-radius: 50px;
-  margin: 45px 45px 45px 45px;
+  margin: 63px 45px 45px 45px;
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
@@ -160,10 +164,12 @@ body {
 }
 
 .location-card {
-  width: 22%;
-  height: 254px;
+  width: 28%;
+  height: 300px;
   border-radius: 10px;
-  margin: 55px 30px 55px 30px;
+  margin: 27px auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .location-title {
@@ -172,20 +178,11 @@ body {
   width: 98%;
   font-size: 18px;
   color: white;
-  margin: -110px 10px 10px 6px;
+  margin: -124px 10px 10px 6px;
   font-weight: 900;
   position: relative;
-}
-
-.location-image {
-  width: 100%;
-  height: 255px;
-  border-radius: 2%;
-  background-size: cover;
-  background-position: center;
-  -o-object-fit: cover;
-     object-fit: cover;
-  filter: brightness(65%);
+  margin-top: 13pc;
+  margin-left: 8px;
 }
 
 .location-detail {
@@ -194,7 +191,7 @@ body {
   margin-top: -6px;
   width: 100%;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 11px;
   position: relative;
 }
 
@@ -237,32 +234,30 @@ a {
   }
   .Banner {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
   }
   .Banner-Background {
     border-radius: 12px;
-    margin: 72px 19px 72px 15px;
+    margin: 72px 19px 35px 15px;
     height: 122px;
   }
   .Banner-title {
-    font-size: 19px;
-    width: 79%;
-    justify-content: center;
-    display: flex;
-    margin-top: 5%;
+    font-size: 24px;
+    white-space: normal; /* Permet au texte de passer sur plusieurs lignes */
+    width: 225px;
+    margin-top: 49px;
   }
   .Banner-about {
     border-radius: 12px;
     height: 175px;
-    margin: 97px 12px 89px 12px;
+    margin: 70px 12px 26px 12px;
   }
   .location-card {
     width: 90%;
     height: 198px;
     border-radius: 10px;
-    margin: 26px 5% 65px 5%;
   }
   .location-content {
     background-color: #F6F6F6;
@@ -273,10 +268,7 @@ a {
   }
   .location-title {
     font-size: 15px;
-    margin-top: -72px;
-  }
-  .location-title {
-    font-size: 15px;
+    margin-top: 8pc;
   }
   .location-detail {
     font-size: 12px;
@@ -305,7 +297,7 @@ a {
   padding-bottom: 5px;
   color: #FF6060;
   background-color: #F6F6F6;
-  width: 70%;
+  width: 71%;
   padding-left: 25px;
   padding-right: 25px;
   margin: -15px 0% 2% 11%;
@@ -321,18 +313,24 @@ a {
   justify-content: center;
 }
 
-.Collapse-space {
-  padding-bottom: 1pc;
-}
-
 @media (max-width: 1024px) {
+  .collapse-container {
+    display: flex;
+  }
   .Collapse-text {
-    width: 61%;
-    margin: -10px 0% 2% 11%;
+    padding-bottom: 5px;
+    color: #FF6060;
+    background-color: #F6F6F6;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 0 0 0;
+    border: none;
+    font-size: 18px;
   }
   .Collapse-card {
     width: 100%;
-    margin: 32px 0 32px 0;
+    margin: 25px 0 15px 0;
     height: 37px;
     font-size: 15px;
   }
@@ -346,38 +344,39 @@ a {
   background-color: white;
   width: 80%;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .notfound-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 62pc;
 }
 
 .notfound-title {
   color: #FF6060;
   font-size: 288px;
-  margin-top: 0;
+  margin-top: 50px;
   margin-bottom: 101px;
+  text-align: center;
 }
 
-.notfound-text {
+.notfound-oups {
   color: #FF6060;
-  font-size: 15px;
+  font-size: 30px;
+}
+
+.notfound-noexist {
+  color: #FF6060;
+  font-size: 30px;
+  margin: -85px 0px 58px 294px;
 }
 
 .back-link {
   color: #FF6060;
-}
-
-.back-link:hover {
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  width: 250px;
   border-bottom: solid 1px #FF6060;
+  width: 39%;
+  margin-left: 13pc;
+  font-size: 18px;
 }
 
 @media (max-width: 1024px) {
@@ -385,8 +384,8 @@ a {
     height: 41pc;
   }
   .notfound-title {
-    font-size: 166px;
-    margin-top: -1pc;
+    font-size: 223px;
+    margin-top: 11pc;
   }
   .notfound-text {
     font-size: 18px;
@@ -394,9 +393,24 @@ a {
     margin-bottom: 78px;
   }
   .back-link {
-    margin-top: 0;
-    margin-bottom: -13pc;
-    width: 111%;
+    margin: 0 0 -13px 36px;
+    width: 84%;
+    border-bottom: solid 1px #FF6060;
+    font-size: 18px;
+  }
+  .notfound-oups {
+    color: #FF6060;
+    margin-bottom: -5px;
+    margin-left: 8pc;
+    font-size: 18px;
+  }
+  .notfound-noexist {
+    color: #FF6060;
+    margin-bottom: 50px;
+    width: 108%;
+    margin-left: 6pc;
+    font-size: 18px;
+    margin-top: 10px;
   }
 }
 .logement-container {
@@ -485,9 +499,10 @@ a {
 
 @media (max-width: 1024px) {
   .logement-rating {
-    margin-top: 114px;
+    margin-top: 117px;
     margin-bottom: 0pc;
     margin-left: 0px;
+    font-size: 11px;
   }
   .logement-title {
     font-size: 22px;
@@ -525,7 +540,7 @@ a {
     margin-top: -38px;
     font-weight: bolder;
     font-size: 12px;
-    margin-left: -6pc;
+    margin-left: -8pc;
   }
 }
 .Carrousel {
