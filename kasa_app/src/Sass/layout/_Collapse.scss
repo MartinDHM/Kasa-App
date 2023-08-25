@@ -35,7 +35,9 @@
     margin-left: 85%;
     justify-content: center;
   }
-
+.Collapse-space {
+  padding-bottom: 4px;
+}
 
 @media (max-width: 1024px) {
   .collapse-container {
@@ -55,11 +57,11 @@
     }
   .Collapse-card {
     width: 100%;
-    margin: 25px 0 15px 0;
+    margin: 29px 0 15px 0;
     height: 37px;
     font-size: 15px;
   }
   .Collapse-space {
-    margin : 0 12px 0 12px;
+    margin : -26px 12px 0 12px;
   }
 }

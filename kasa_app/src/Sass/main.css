@@ -61,7 +61,7 @@
   justify-content: center;
   flex-direction: column;
   background-color: black;
-  margin-top: -140px;
+  margin-top: 0;
 }
 
 .App-logoFooter {
@@ -95,6 +95,9 @@
   }
   .Link {
     margin: -63px 47px 0 0;
+  }
+  .footer-content {
+    margin-top: -165px;
   }
 }
 .main-container {
@@ -313,6 +316,10 @@ a {
   justify-content: center;
 }
 
+.Collapse-space {
+  padding-bottom: 4px;
+}
+
 @media (max-width: 1024px) {
   .collapse-container {
     display: flex;
@@ -330,12 +337,12 @@ a {
   }
   .Collapse-card {
     width: 100%;
-    margin: 25px 0 15px 0;
+    margin: 29px 0 15px 0;
     height: 37px;
     font-size: 15px;
   }
   .Collapse-space {
-    margin: 0 12px 0 12px;
+    margin: -26px 12px 0 12px;
   }
 }
 .notfound {
@@ -362,19 +369,20 @@ a {
 
 .notfound-oups {
   color: #FF6060;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .notfound-noexist {
   color: #FF6060;
-  font-size: 30px;
-  margin: -85px 0px 58px 294px;
+  font-size: 26px;
+  margin: -80px 0px 58px 281px;
+  width: 100%;
 }
 
 .back-link {
   color: #FF6060;
   border-bottom: solid 1px #FF6060;
-  width: 39%;
+  width: 44%;
   margin-left: 13pc;
   font-size: 18px;
 }
@@ -384,8 +392,8 @@ a {
     height: 41pc;
   }
   .notfound-title {
-    font-size: 223px;
-    margin-top: 11pc;
+    font-size: 161px;
+    margin-top: 7pc;
   }
   .notfound-text {
     font-size: 18px;
@@ -393,22 +401,22 @@ a {
     margin-bottom: 78px;
   }
   .back-link {
-    margin: 0 0 -13px 36px;
-    width: 84%;
+    margin: 0 0 -13px 31px;
+    width: 87%;
     border-bottom: solid 1px #FF6060;
     font-size: 18px;
   }
   .notfound-oups {
     color: #FF6060;
     margin-bottom: -5px;
-    margin-left: 8pc;
+    margin-left: 5pc;
     font-size: 18px;
   }
   .notfound-noexist {
     color: #FF6060;
     margin-bottom: 50px;
     width: 108%;
-    margin-left: 6pc;
+    margin-left: 42px;
     font-size: 18px;
     margin-top: 10px;
   }
@@ -470,7 +478,7 @@ a {
 
 .Host {
   color: #FF6060;
-  margin-left: -8pc;
+  margin-left: -11pc;
   margin-top: -4pc;
 }
 
@@ -541,6 +549,7 @@ a {
     font-weight: bolder;
     font-size: 12px;
     margin-left: -8pc;
+    margin-bottom: 25px;
   }
 }
 .Carrousel {

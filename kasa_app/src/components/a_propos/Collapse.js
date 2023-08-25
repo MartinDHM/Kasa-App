@@ -12,7 +12,7 @@ const Collapse = ({ title, children }) => {
   };
 
   return (
-    <div>
+    <div className='Collapse-space'>
       {/* Bouton pour contrôler l'expansion/réduction */}
       <button onClick={toggleCollapse} className="Collapse-card">
         {title}
