@@ -1,4 +1,4 @@
-#🏡 Projet Kasa-App
+#🏡Projet Kasa-App
 Je suis Martin Duhem, un développeur front-end freelance, et je suis ravi de vous présenter le projet Kasa-App.
 
 Kasa vous recrute en tant que développeur front-end en freelance pour développer sa toute nouvelle plateforme web. Kasa est un acteur majeur de la location d'appartements entre particuliers en France depuis près de 10 ans, avec plus de 500 annonces postées chaque jour. Cette opportunité représente un ajout précieux à mon portfolio de freelance !
